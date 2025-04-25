@@ -12,7 +12,7 @@ Voice disorders are pathologies that significantly impact patients' quality of l
 
 ## Datasets
 
-We utilized two publicly available datasets: the German SVD and the Portuguese AVFAD. Additionally, we assess the performance of our approach on an internal Hong Kong CSL dataset. Currently, we are using "<a>" sustained vowels with normal pitch as our training data. We refined the datasets to focus on consistent recordings and performed minimal preprocessing, such as cropping to reduce silent segments. Only training data with a sampling rate greater than 44.1 kHz was included.
+We utilized two publicly available datasets: the German SVD and the Portuguese AVFAD. Additionally, we assess the performance of our approach on an internal Hong Kong CSL dataset. Currently, we are using <a> sustained vowels only as our training data. We refined the datasets to focus on consistent recordings and performed minimal preprocessing, such as cropping to reduce silent segments. Only training data with a sampling rate greater than 44.1 kHz was included.
 
 SVD. The Saarbrücken Voice Database consists of voice recordings and electroglottography (EGG) data, featuring 13 files per recording session. This includes recordings of vowels /a, i, u/ with various pitch variations (normal, high, low, rising-falling) and a sentence reading task.
 
